@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Teko Bold';
+    src: url('../fonts/Teko-Bold.eot');
+    src: url('../fonts/Teko-Bold.eot') format('embedded-opentype'),
+        url('../fonts/Teko-Bold.woff2') format('woff2'),
+        url('../fonts/Teko-Bold.woff') format('woff'),
+        url('../fonts/Teko-Bold.ttf') format('truetype'),
+        url('../fonts/Teko-Bold.svg') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko Light';
+    src: url('../fonts/Teko-Light.eot');
+    src: url('../fonts/Teko-Light.eot') format('embedded-opentype'),
+        url('../fonts/Teko-Light.woff2') format('woff2'),
+        url('../fonts/Teko-Light.woff') format('woff'),
+        url('../fonts/Teko-Light.ttf') format('truetype'),
+        url('../fonts/Teko-Light.svg') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Teko SemiBold';
+    src: url('../fonts/Teko-SemiBold.eot');
+    src: url('../fonts/Teko-SemiBold.eot') format('embedded-opentype'),
+        url('../fonts/Teko-SemiBold.woff2') format('woff2'),
+        url('../fonts/Teko-SemiBold.woff') format('woff'),
+        url('../fonts/Teko-SemiBold.ttf') format('truetype'),
+        url('../fonts/Teko-SemiBold.svg') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}

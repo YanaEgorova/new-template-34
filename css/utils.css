@@ -1,0 +1,154 @@
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100vh;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-weight: 300;
+}
+​img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+body {
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+input:focus,
+input:active,
+button:active,
+button:focus {
+  outline: none;
+}
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  z-index: 999999;
+}
+.container {
+  padding: 0 1.5rem;
+  max-width: 140rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section {
+  text-align: center;
+}
+/* LOGO HOVER START */
+.logo__box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+.logo {
+  font-size: 2rem;
+  font-family: var(--title-font);
+}
+
+/* LOGO HOVER END */
+
+.title {
+  font-family: var(--title-font);
+  text-transform: uppercase;
+  font-size: 5.5rem;
+}
+.sub-title {
+  font-family: var(--title-font);
+  font-size: 2.2rem;
+}
+.text {
+   font-size: 2.2rem;
+}
+.img {
+    width: 100%;
+    display: block;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+  background-color: var(--sub-bg-color);
+  color: var(--sub-text-color);
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0;
+  font-family: var(--title-font);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: fit-content;
+  transition:all .2s ease-in-out;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+} 
+.bold {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0 3rem;
+  }
+ .sub-title {
+  font-size: 3rem;
+ }
+
+ .btn:hover {
+  background-color: transparent; 
+  color: var(--main-text-color);
+ }
+ .title {
+  font-size: 12rem;
+}
+}
+@media screen and (min-width: 1024px) {
+
+ .title {
+  font-size: 15rem;
+}
+.logo {
+  font-size: 3rem;
+}
+}
